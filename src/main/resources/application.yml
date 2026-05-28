@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-boot-practise
+  datasource:
+    user-mysql:
+      jdbc-url: jdbc:mysql://localhost:3306/library
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: sonukush
+    book-postgres:
+      jdbc-url: jdbc:postgresql://localhost:5433/practise_db
+      driver-class-name: org.postgresql.Driver
+      username: admin
+      password: password123
